@@ -1,9 +1,9 @@
-using Unit06.Game.Casting;
-using Unit06.Game.Scripting;
-using Unit06.Game.Services;
+using Trebuchet.Game.Casting;
+using Trebuchet.Game.Scripting;
+using Trebuchet.Game.Services;
 
 
-namespace Unit06.Game.Directing
+namespace Trebuchet.Game.Directing
 {
     /// The responsibility of a Director is to control the sequence of play.
     public class Director

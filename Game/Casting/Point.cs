@@ -1,4 +1,4 @@
-namespace Unit06.Game.Casting
+namespace Trebuchet.Game.Casting
 {
     /// A distance from a relative origin (0, 0)
     /// The responsibility of Point is to hold and provide information about itself. Point has a few 

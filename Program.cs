@@ -1,11 +1,11 @@
-﻿using Unit06.Game.Casting;
-using Unit06.Game.Directing;
-using Unit06.Game.Scripting;
-using Unit06.Game.Services;
-using Unit06.Game;
+﻿using Trebuchet.Game.Casting;
+using Trebuchet.Game.Directing;
+using Trebuchet.Game.Scripting;
+using Trebuchet.Game.Services;
+using Trebuchet.Game;
 
 
-namespace Unit06
+namespace Trebuchet
 {
     /// The program's entry point.
     class Program
@@ -15,7 +15,7 @@ namespace Unit06
         {
             // create the services
             // KeyboardService keyboardService = new KeyboardService();
-            GamepadService gamepadService = new GamepadService();
+            
             VideoService videoService = new VideoService(false);
             AudioService audioService = new AudioService();
 

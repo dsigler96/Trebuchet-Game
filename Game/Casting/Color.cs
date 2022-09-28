@@ -1,4 +1,4 @@
-namespace Unit06.Game.Casting
+namespace Trebuchet.Game.Casting
 {
     /// The responsibility of Color is to hold and provide information about itself. Color has 
     /// a few convenience methods for comparing and converting them.

@@ -1,4 +1,4 @@
-namespace Unit06.Game.Casting
+namespace Trebuchet.Game.Casting
 {
     /// A thing that participates in the game.
     /// The responsibility of Actor is to keep track of its appearance, position and velocity

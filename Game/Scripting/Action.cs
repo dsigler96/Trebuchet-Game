@@ -1,7 +1,7 @@
-using Unit06.Game.Casting;
+using Trebuchet.Game.Casting;
 
 
-namespace Unit06.Game.Scripting 
+namespace Trebuchet.Game.Scripting 
 {
     /// The responsibility of action is to do something that is integral or important in the game. 
     /// Thus, it has one method, Execute(...), which should be overridden by derived classes.
