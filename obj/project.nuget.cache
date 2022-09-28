@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tgQFG8xoKtX5gyra3JvG2/bSnMj+GrWZq0RsYywmwpRSPXRVXif+fKG/57xAYhFS1TjixfXNVmanqHoPNwCCgA==",
+  "dgSpecHash": "3logQQPowLAzijR7edzh+9IJ8EE2bpUGkoelgE22CacnUJOBcBp066ky9eD5xnY9sS/lWBbMB6F4iXoxAxbLdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\benny\\Applied Programming\\Trebuchet-Game\\Trebuchet-Game.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\DBCar\\OneDrive\\Documents\\GitHub\\Trebuchet-Game\\Trebuchet-Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DBCar\\.nuget\\packages\\raylib-cs\\4.0.0.2\\raylib-cs.4.0.0.2.nupkg.sha512",
+    "C:\\Users\\DBCar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
