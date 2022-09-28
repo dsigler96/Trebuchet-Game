@@ -1,4 +1,4 @@
-namespace Unit06.Game.Casting
+namespace Trebuchet.Game.Casting
 {
     /// A collection of actors.
     /// The responsibility of a cast is to keep track of a collection of actors. It has methods for 

@@ -1,8 +1,8 @@
 using Raylib_cs;
-using Unit06.Game.Casting;
+using Trebuchet.Game.Casting;
 using System.Numerics;
 
-namespace Unit06.Game.Services
+namespace Trebuchet.Game.Services
 {
     /// Outputs the game state.</para>
     public class VideoService

@@ -1,4 +1,4 @@
-namespace Unit06.Game.Scripting
+namespace Trebuchet.Game.Scripting
 {
     /// The responsibility of a script is to keep track of a collection of actions.
     public class Script
