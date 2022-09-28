@@ -1,6 +1,6 @@
-using Unit06.Game.Casting;
+using Trebuchet.Game.Casting;
 
-namespace Unit06.Game
+namespace Trebuchet.Game
 {
     /// Constants used throughout the project
     public class Constants

@@ -1,7 +1,7 @@
 using Raylib_cs;
 
 
-namespace Unit06.Game.Services
+namespace Trebuchet.Game.Services
 {
     public class AudioService
     {
