@@ -129,14 +129,14 @@ namespace Trebuchet.Game.Services
         //     Raylib.DrawRectangle(posX, posY, width, height, color);
         // }
         /// Debug method to draw the hitbox of an actor
-        public void DrawHitbox(Actor actor)
-        {
-            int posX = actor.GetPosition().GetX();
-            int posY = actor.GetPosition().GetY();
-            int width = actor.GetSize().GetX();
-            int height = actor.GetSize().GetY();
-            Raylib.DrawRectangleLines(posX, posY, width, height, Raylib_cs.Color.BLACK);
-        }
+        // public void DrawHitbox(Actor actor)
+        // {
+        //     int posX = actor.GetPosition().GetX();
+        //     int posY = actor.GetPosition().GetY();
+        //     int width = actor.GetSize().GetX();
+        //     int height = actor.GetSize().GetY();
+        //     Raylib.DrawRectangleLines(posX, posY, width, height, Raylib_cs.Color.BLACK);
+        // }
         /// Draws the background to the screen
         // public void DrawBackground()
         // {

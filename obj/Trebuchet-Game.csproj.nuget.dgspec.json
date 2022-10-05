@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wildm\\Documents\\SEMESTER 7\\Applied Programming\\Team project\\Trebuchet-Game\\Trebuchet-Game.csproj": {}
+    "C:\\Projects\\Fall 2022\\CSE310\\Team Project\\Trebuchet-Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wildm\\Documents\\SEMESTER 7\\Applied Programming\\Team project\\Trebuchet-Game\\Trebuchet-Game.csproj": {
+    "C:\\Projects\\Fall 2022\\CSE310\\Team Project\\Trebuchet-Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wildm\\Documents\\SEMESTER 7\\Applied Programming\\Team project\\Trebuchet-Game\\Trebuchet-Game.csproj",
+        "projectUniqueName": "C:\\Projects\\Fall 2022\\CSE310\\Team Project\\Trebuchet-Game.csproj",
         "projectName": "Trebuchet-Game",
-        "projectPath": "C:\\Users\\wildm\\Documents\\SEMESTER 7\\Applied Programming\\Team project\\Trebuchet-Game\\Trebuchet-Game.csproj",
-        "packagesPath": "C:\\Users\\wildm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wildm\\Documents\\SEMESTER 7\\Applied Programming\\Team project\\Trebuchet-Game\\obj\\",
+        "projectPath": "C:\\Projects\\Fall 2022\\CSE310\\Team Project\\Trebuchet-Game.csproj",
+        "packagesPath": "C:\\Users\\jenna\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Fall 2022\\CSE310\\Team Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\wildm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jenna\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -49,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
