@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\benny\\Applied Programming\\Trebuchet-Game\\Trebuchet-Game.csproj": {}
+    "C:\\Projects\\Fall 2022\\CSE310\\Team Project\\Trebuchet-Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\benny\\Applied Programming\\Trebuchet-Game\\Trebuchet-Game.csproj": {
+    "C:\\Projects\\Fall 2022\\CSE310\\Team Project\\Trebuchet-Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benny\\Applied Programming\\Trebuchet-Game\\Trebuchet-Game.csproj",
+        "projectUniqueName": "C:\\Projects\\Fall 2022\\CSE310\\Team Project\\Trebuchet-Game.csproj",
         "projectName": "Trebuchet-Game",
-        "projectPath": "C:\\Users\\benny\\Applied Programming\\Trebuchet-Game\\Trebuchet-Game.csproj",
-        "packagesPath": "C:\\Users\\benny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benny\\Applied Programming\\Trebuchet-Game\\obj\\",
+        "projectPath": "C:\\Projects\\Fall 2022\\CSE310\\Team Project\\Trebuchet-Game.csproj",
+        "packagesPath": "C:\\Users\\jenna\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Fall 2022\\CSE310\\Team Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\benny\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jenna\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Raylib-cs": {
+              "target": "Package",
+              "version": "[4.0.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
