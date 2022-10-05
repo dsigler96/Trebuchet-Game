@@ -99,35 +99,35 @@ namespace Trebuchet.Game.Services
             return new Raylib_cs.Color(r, g, b, a);
         }
         /// Draws a wall to the screen
-        public void DrawWall(Wall wall)
-        {
-            int posX = wall.GetPosX();
-            int posY = wall.GetPosY();
-            int width = wall.GetWidth();
-            int height = wall.GetHeight();
+        // public void DrawWall(Wall wall)
+        // {
+        //     int posX = wall.GetPosX();
+        //     int posY = wall.GetPosY();
+        //     int width = wall.GetWidth();
+        //     int height = wall.GetHeight();
 
-            Casting.Color color = new Casting.Color(0, 0, 0);
+        //     Casting.Color color = new Casting.Color(0, 0, 0);
 
-            Raylib.DrawRectangle(posX, posY, width, height, ToRaylibColor(color));
-        }
+        //     Raylib.DrawRectangle(posX, posY, width, height, ToRaylibColor(color));
+        // }
         /// Draws multiple walls to the screen
-        public void DrawWalls(List<Actor> walls)
-        {
-            foreach (Wall wall in walls)
-            {
-                DrawWall(wall);
-            }
-        }
+        // public void DrawWalls(List<Actor> walls)
+        // {
+        //     foreach (Wall wall in walls)
+        //     {
+        //         DrawWall(wall);
+        //     }
+        // }
         /// Draws the health of the players to the screen
-        public void DrawHealth(Player player, Raylib_cs.Color color)
-        {
+        // public void DrawHealth(Player player, Raylib_cs.Color color)
+        // {
 
-            int posX = player.GetPosition().GetX();
-            int posY = player.GetPosition().GetY() - 10;
-            int width = (int)(player.GetHealth() / 1.5);
-            int height = 10;
-            Raylib.DrawRectangle(posX, posY, width, height, color);
-        }
+        //     int posX = player.GetPosition().GetX();
+        //     int posY = player.GetPosition().GetY() - 10;
+        //     int width = (int)(player.GetHealth() / 1.5);
+        //     int height = 10;
+        //     Raylib.DrawRectangle(posX, posY, width, height, color);
+        // }
         /// Debug method to draw the hitbox of an actor
         public void DrawHitbox(Actor actor)
         {
@@ -138,17 +138,17 @@ namespace Trebuchet.Game.Services
             Raylib.DrawRectangleLines(posX, posY, width, height, Raylib_cs.Color.BLACK);
         }
         /// Draws the background to the screen
-        public void DrawBackground()
-        {
-            string filename = Constants.backgroundPath;
-            if (!textures.ContainsKey(filename))
-            {
-                Raylib_cs.Texture2D loaded = Raylib.LoadTexture(filename);
-                textures[filename] = loaded;
-            }
-            Raylib_cs.Texture2D texture = textures[filename];
-            Raylib.DrawTexture(texture, 0, 0, Raylib_cs.Color.WHITE);
-        }
+        // public void DrawBackground()
+        // {
+        //     string filename = Constants.backgroundPath;
+        //     if (!textures.ContainsKey(filename))
+        //     {
+        //         Raylib_cs.Texture2D loaded = Raylib.LoadTexture(filename);
+        //         textures[filename] = loaded;
+        //     }
+        //     Raylib_cs.Texture2D texture = textures[filename];
+        //     Raylib.DrawTexture(texture, 0, 0, Raylib_cs.Color.WHITE);
+        // }
 
         // Draws text to the screen using the specified parameters
         public void DrawText(string text, int xValue, int yValue, int fontSize, Casting.Color color) 

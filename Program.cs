@@ -23,13 +23,13 @@ namespace Trebuchet
             Cast cast = new Cast();
             
             // initialize audio
-            audioService.Initialize();
-            audioService.LoadSounds("Game/Assets/Sounds");
-            audioService.LoadMusic("Game/Assets/Music");
+            // audioService.Initialize();
+            // audioService.LoadSounds("Game/Assets/Sounds");
+            // audioService.LoadMusic("Game/Assets/Music");
 
             // create the script to be run each frame
             Script script = new Script();
-            script.AddAction("output", new DrawTitle(videoService, gamepadService, audioService, Constants.STARTMESSAGE));
+            // script.AddAction("output", new DrawTitle(videoService, gamepadService, audioService, Constants.STARTMESSAGE));
 
             // start the game
             Director director = new Director(videoService);
