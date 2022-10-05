@@ -4,5 +4,7 @@ namespace Trebuchet.Game.Casting;
 
 public class Trebuchet : Actor
 {
-    
+    public Trebuchet() {
+
+    }
 }
