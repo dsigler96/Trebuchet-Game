@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Trebuchet_Game
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\
+=======
+build_property.ProjectDir = c:\Projects\Fall 2022\CSE310\Team Project\
+>>>>>>> 70289705ac12b79c26153f0b6d021e6df58ceb64
