@@ -1,7 +1,22 @@
 
+<<<<<<< HEAD
+obj/Debug/net6.0/Trebuchet-Game.AssemblyInfo.cs
+*.cache
+obj/project.assets.json
+obj/Debug/net6.0/Trebuchet-Game.GeneratedMSBuildEditorConfig.editorconfig
+obj/Trebuchet-Game.csproj.nuget.g.props
+obj/Trebuchet-Game.csproj.nuget.dgspec.json
+obj/Trebuchet-Game.csproj.nuget.g.props
+obj/project.nuget.cache
+obj/project.assets.json
+obj/Debug/net6.0/Trebuchet-Game.GlobalUsings.g.cs
+obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+obj/Trebuchet-Game.csproj.nuget.g.props
+=======
 obj/Debug/net6.0/Trebuchet-Game.assets.cache
 *.cache
 obj/Debug/net6.0/Trebuchet-Game.assets.cache
 obj/Debug/net6.0/Trebuchet-Game.csproj.AssemblyReference.cache
 obj/Debug/net6.0/Trebuchet-Game.GeneratedMSBuildEditorConfig.editorconfig
 obj/project.assets.json
+>>>>>>> b22bd58e5a4919be40774ac2e02e0db674fe5b83
