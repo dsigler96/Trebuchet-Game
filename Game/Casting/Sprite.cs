@@ -1,4 +1,4 @@
-namespace Unit06.Game.Casting
+namespace Trebuchet.Game.Casting
 {
     /// An image.
     public class Sprite

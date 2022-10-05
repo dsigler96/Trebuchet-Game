@@ -1,4 +1,4 @@
-namespace Unit06.Game.Casting
+namespace Trebuchet.Game.Casting
 {
     /// A sound.
     public class Sound
