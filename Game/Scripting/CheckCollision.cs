@@ -7,7 +7,11 @@ namespace Trebuchet.Game.Scripting
     public class CheckCollision : Action
     {
 
-
+        public CheckCollision()
+        {
+            
+        }
+        
         public void Execute(Cast cast, Script script)
         {
 
