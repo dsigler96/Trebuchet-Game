@@ -20,3 +20,8 @@ obj/project.assets.json
 obj/Debug/net6.0/Trebuchet-Game.GeneratedMSBuildEditorConfig.editorconfig
 obj/Debug/net6.0/Trebuchet-Game.csproj.AssemblyReference.cache
 obj/Debug/net6.0/Trebuchet-Game.assets.cache
+*.cache
+obj/Debug/net6.0/Trebuchet-Game.assets.cache
+obj/Debug/net6.0/Trebuchet-Game.csproj.CoreCompileInputs.cache
+obj/Debug/net6.0/Trebuchet-Game.csproj.FileListAbsolute.txt
+obj/Debug/net6.0/Trebuchet-Game.GeneratedMSBuildEditorConfig.editorconfig
