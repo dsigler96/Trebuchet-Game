@@ -27,7 +27,7 @@ namespace Trebuchet.Game.Directing
                 ExecuteActions("update", cast, script);
                 ExecuteActions("output", cast, script);
                 
-                ExecuteActions("sound", cast, script);
+                // ExecuteActions("sound", cast, script);
                 ExecuteActions("endgame", cast, script);
             }
             videoService.CloseWindow();
