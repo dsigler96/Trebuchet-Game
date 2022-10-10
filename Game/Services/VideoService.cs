@@ -137,18 +137,18 @@ namespace Trebuchet.Game.Services
             int height = actor.GetSize().GetY();
             Raylib.DrawRectangleLines(posX, posY, width, height, Raylib_cs.Color.BLACK);
         }
-        /// Draws the background to the screen
-        // public void DrawBackground()
-        // {
-        //     string filename = Constants.backgroundPath;
-        //     if (!textures.ContainsKey(filename))
-        //     {
-        //         Raylib_cs.Texture2D loaded = Raylib.LoadTexture(filename);
-        //         textures[filename] = loaded;
-        //     }
-        //     Raylib_cs.Texture2D texture = textures[filename];
-        //     Raylib.DrawTexture(texture, 0, 0, Raylib_cs.Color.WHITE);
-        // }
+        // Draws the background to the screen
+        public void DrawBackground()
+        {
+            string filename = Constants.BACKGROUNDPATH;
+            if (!textures.ContainsKey(filename))
+            {
+                Raylib_cs.Texture2D loaded = Raylib.LoadTexture(filename);
+                textures[filename] = loaded;
+            }
+            Raylib_cs.Texture2D texture = textures[filename];
+            Raylib.DrawTexture(texture, 0, 0, Raylib_cs.Color.WHITE);
+        }
 
         // Draws text to the screen using the specified parameters
         public void DrawText(string text, int xValue, int yValue, int fontSize, Casting.Color color) 
