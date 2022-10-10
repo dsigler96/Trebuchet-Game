@@ -6,3 +6,9 @@ obj/Debug/net6.0/Trebuchet-Game.csproj.AssemblyReference.cache
 obj/Debug/net6.0/Trebuchet-Game.GeneratedMSBuildEditorConfig.editorconfig
 obj/project.assets.json
 *.cache
+bin/Debug/net6.0/Trebuchet-Game.exe
+bin/Debug/net6.0/Trebuchet-Game.exe
+*.exe
+*.exe
+obj/Debug/net6.0/apphost.exe
+bin/Debug/net6.0/Trebuchet-Game.exe

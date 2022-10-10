@@ -19,3 +19,24 @@ C:\Projects\Fall 2022\CSE310\Team Project\obj\Debug\net6.0\refint\Trebuchet-Game
 C:\Projects\Fall 2022\CSE310\Team Project\obj\Debug\net6.0\Trebuchet-Game.pdb
 C:\Projects\Fall 2022\CSE310\Team Project\obj\Debug\net6.0\Trebuchet-Game.genruntimeconfig.cache
 C:\Projects\Fall 2022\CSE310\Team Project\obj\Debug\net6.0\ref\Trebuchet-Game.dll
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\bin\Debug\net6.0\Trebuchet-Game.exe
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\bin\Debug\net6.0\Trebuchet-Game.deps.json
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\bin\Debug\net6.0\Trebuchet-Game.runtimeconfig.json
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\bin\Debug\net6.0\Trebuchet-Game.dll
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\bin\Debug\net6.0\Trebuchet-Game.pdb
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\bin\Debug\net6.0\Raylib-cs.dll
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\bin\Debug\net6.0\runtimes\linux-x64\native\libraylib.so
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\bin\Debug\net6.0\runtimes\osx-x64\native\libraylib.dylib
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\bin\Debug\net6.0\runtimes\win-x64\native\raylib.dll
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\bin\Debug\net6.0\runtimes\win-x86\native\raylib.dll
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.csproj.AssemblyReference.cache
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.AssemblyInfoInputs.cache
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.AssemblyInfo.cs
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.csproj.CoreCompileInputs.cache
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.csproj.CopyComplete
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.dll
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\obj\Debug\net6.0\refint\Trebuchet-Game.dll
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.pdb
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.genruntimeconfig.cache
+C:\Users\DBCar\OneDrive\Documents\GitHub\Trebuchet-Game\obj\Debug\net6.0\ref\Trebuchet-Game.dll
