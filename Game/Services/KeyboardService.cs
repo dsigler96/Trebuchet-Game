@@ -50,6 +50,5 @@ namespace Trebuchet.Game.Services
             KeyboardKey raylibKey = keys[key.ToLower()];
             return Raylib.IsKeyUp(raylibKey);
         }
-
     }
 }
