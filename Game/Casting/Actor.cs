@@ -1,3 +1,4 @@
+using Trebuchet.Game.Services;
 namespace Trebuchet.Game.Casting
 {
     /// A thing that participates in the game.
@@ -11,7 +12,7 @@ namespace Trebuchet.Game.Casting
         private Point position = new Point(0, 0);
         private Point velocity = new Point(0, 0);
         private Point size = new Point(0, 0);
-        private Sprite sprite;
+        private Sprite sprite = new Sprite("");
 
         /// Constructs a new instance of Actor.
         public Actor()

@@ -20,7 +20,7 @@ namespace Trebuchet
 
             // create the cast
             Cast cast = new Cast();
-
+            cast.AddActor("ball", new Ball());
             // initialize audio
             // audioService.Initialize();
             // audioService.LoadSounds("Game/Assets/Sounds");
@@ -28,6 +28,8 @@ namespace Trebuchet
 
             // create the script to be run each frame
             Script script = new Script();
+            script.AddAction("update", new MoveActors());
+            script.AddAction("output", new DrawActors(videoService));
             // script.AddAction("output", new DrawTitle(videoService, gamepadService, audioService, Constants.STARTMESSAGE));
 
             // start the game

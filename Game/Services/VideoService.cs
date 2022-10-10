@@ -46,17 +46,16 @@ namespace Trebuchet.Game.Services
             Raylib.DrawText(text, x, y, fontSize, color);
 
             //Draw image
-            string filename = actor.getSprite.GetFilename();
+            string filename = actor.GetSprite().GetFilename();
             if (!textures.ContainsKey(filename))
             {
                 Raylib_cs.Texture2D loaded = Raylib.LoadTexture(filename);
                 textures[filename] = loaded;
             }
             Raylib_cs.Texture2D texture = textures[filename];
-            int x = actor.getPosition.GetX();
-            int y = actor.getPosition.GetY();
+            
             Vector2 pos= new Vector2(x, y);
-            Raylib.DrawTextureEx(texture, pos, actor.getSprite.GetRotation(), 1, Raylib_cs.Color.WHITE);
+            Raylib.DrawTextureEx(texture, pos, actor.GetSprite().GetRotation(), 1, Raylib_cs.Color.WHITE);
         }
         // Draws an image to the screen, given a Sprite and a Point
         public void DrawImage(Casting.Sprite image, Casting.Point position)
