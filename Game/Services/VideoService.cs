@@ -36,7 +36,6 @@ namespace Trebuchet.Game.Services
         /// Draws the given actor's text on the screen.
         public void DrawActor(Actor actor)
         {
-            //Draw text
             string text = actor.GetText();
             int x = actor.GetPosition().GetX();
             int y = actor.GetPosition().GetY();
@@ -44,19 +43,6 @@ namespace Trebuchet.Game.Services
             Casting.Color c = actor.GetColor();
             Raylib_cs.Color color = ToRaylibColor(c);
             Raylib.DrawText(text, x, y, fontSize, color);
-
-            //Draw image
-            string filename = actor.getSprite.GetFilename();
-            if (!textures.ContainsKey(filename))
-            {
-                Raylib_cs.Texture2D loaded = Raylib.LoadTexture(filename);
-                textures[filename] = loaded;
-            }
-            Raylib_cs.Texture2D texture = textures[filename];
-            int x = actor.getPosition.GetX();
-            int y = actor.getPosition.GetY();
-            Vector2 pos= new Vector2(x, y);
-            Raylib.DrawTextureEx(texture, pos, actor.getSprite.GetRotation(), 1, Raylib_cs.Color.WHITE);
         }
         // Draws an image to the screen, given a Sprite and a Point
         public void DrawImage(Casting.Sprite image, Casting.Point position)
@@ -143,26 +129,26 @@ namespace Trebuchet.Game.Services
         //     Raylib.DrawRectangle(posX, posY, width, height, color);
         // }
         /// Debug method to draw the hitbox of an actor
-        // public void DrawHitbox(Actor actor)
-        // {
-        //     int posX = actor.GetPosition().GetX();
-        //     int posY = actor.GetPosition().GetY();
-        //     int width = actor.GetSize().GetX();
-        //     int height = actor.GetSize().GetY();
-        //     Raylib.DrawRectangleLines(posX, posY, width, height, Raylib_cs.Color.BLACK);
-        // }
-        /// Draws the background to the screen
-        // public void DrawBackground()
-        // {
-        //     string filename = Constants.backgroundPath;
-        //     if (!textures.ContainsKey(filename))
-        //     {
-        //         Raylib_cs.Texture2D loaded = Raylib.LoadTexture(filename);
-        //         textures[filename] = loaded;
-        //     }
-        //     Raylib_cs.Texture2D texture = textures[filename];
-        //     Raylib.DrawTexture(texture, 0, 0, Raylib_cs.Color.WHITE);
-        // }
+        public void DrawHitbox(Actor actor)
+        {
+            int posX = actor.GetPosition().GetX();
+            int posY = actor.GetPosition().GetY();
+            int width = actor.GetSize().GetX();
+            int height = actor.GetSize().GetY();
+            Raylib.DrawRectangleLines(posX, posY, width, height, Raylib_cs.Color.BLACK);
+        }
+        // Draws the background to the screen
+        public void DrawBackground()
+        {
+            string filename = Constants.BACKGROUNDPATH;
+            if (!textures.ContainsKey(filename))
+            {
+                Raylib_cs.Texture2D loaded = Raylib.LoadTexture(filename);
+                textures[filename] = loaded;
+            }
+            Raylib_cs.Texture2D texture = textures[filename];
+            Raylib.DrawTexture(texture, 0, 0, Raylib_cs.Color.WHITE);
+        }
 
         // Draws text to the screen using the specified parameters
         public void DrawText(string text, int xValue, int yValue, int fontSize, Casting.Color color) 
