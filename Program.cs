@@ -14,14 +14,13 @@ namespace Trebuchet
         static void Main(string[] args)
         {
             // create the services
-            // KeyboardService keyboardService = new KeyboardService();
-            
+            KeyboardService keyboardService = new KeyboardService();          
             VideoService videoService = new VideoService(false);
-            AudioService audioService = new AudioService();
+            // AudioService audioService = new AudioService();
 
             // create the cast
             Cast cast = new Cast();
-            
+
             // initialize audio
             // audioService.Initialize();
             // audioService.LoadSounds("Game/Assets/Sounds");

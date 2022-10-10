@@ -22,13 +22,13 @@ namespace Trebuchet.Game.Directing
             videoService.OpenWindow();
             while (videoService.IsWindowOpen())
             {
-                ExecuteActions("timer", cast, script);
+                // ExecuteActions("timer", cast, script);
                 ExecuteActions("input", cast, script);
                 ExecuteActions("update", cast, script);
                 ExecuteActions("output", cast, script);
                 
-                // ExecuteActions("sound", cast, script);
-                ExecuteActions("endgame", cast, script);
+                // // ExecuteActions("sound", cast, script);
+                // ExecuteActions("endgame", cast, script);
             }
             videoService.CloseWindow();
         }
