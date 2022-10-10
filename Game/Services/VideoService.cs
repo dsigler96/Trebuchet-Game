@@ -36,6 +36,7 @@ namespace Trebuchet.Game.Services
         /// Draws the given actor's text on the screen.
         public void DrawActor(Actor actor)
         {
+            //Draw text
             string text = actor.GetText();
             int x = actor.GetPosition().GetX();
             int y = actor.GetPosition().GetY();
@@ -43,6 +44,19 @@ namespace Trebuchet.Game.Services
             Casting.Color c = actor.GetColor();
             Raylib_cs.Color color = ToRaylibColor(c);
             Raylib.DrawText(text, x, y, fontSize, color);
+
+            //Draw image
+            string filename = actor.getSprite.GetFilename();
+            if (!textures.ContainsKey(filename))
+            {
+                Raylib_cs.Texture2D loaded = Raylib.LoadTexture(filename);
+                textures[filename] = loaded;
+            }
+            Raylib_cs.Texture2D texture = textures[filename];
+            int x = actor.getPosition.GetX();
+            int y = actor.getPosition.GetY();
+            Vector2 pos= new Vector2(x, y);
+            Raylib.DrawTextureEx(texture, pos, actor.getSprite.GetRotation(), 1, Raylib_cs.Color.WHITE);
         }
         // Draws an image to the screen, given a Sprite and a Point
         public void DrawImage(Casting.Sprite image, Casting.Point position)
