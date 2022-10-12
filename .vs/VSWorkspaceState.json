@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Game",
+    "\\Game\\Directing"
   ],
-  "SelectedNode": "\\C:\\Projects\\Fall 2022\\CSE212\\Team Project",
+  "SelectedNode": "\\Game\\Directing\\Director.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -9,6 +9,6 @@ namespace Trebuchet.Game.Scripting
     {
         /// Executes something that is important in the game. This method should be overriden by 
         /// derived classes.
-        void Execute(Cast cast, Script script);
+        public void Execute(Cast cast, Script script);
     }
 }
