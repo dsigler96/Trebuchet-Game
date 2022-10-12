@@ -11,7 +11,7 @@ namespace Trebuchet.Game
         public static int MAX_X = 1600;
         public static int MAX_Y = 900;
 
-        public static int FRAME_RATE = 240;
+        public static int FRAME_RATE = 60;
         public static int FONT_SIZE = 15;
         public static string CAPTION = "Trebuchet";
         public static string STARTMESSAGE = "Press the Start button to begin";

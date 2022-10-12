@@ -10,7 +10,7 @@ namespace Trebuchet.Game.Casting
         private PhysicsService physicsService = new PhysicsService();
         public Ball() {
             this.SetPosition(new Point(100, 100));
-            this.SetSprite(new Sprite("/Assets\\Images/ball.png"));
+            this.SetSprite(new Sprite("Game/Assets/Images/ball.png"));
         }
         
         public void moveBall()

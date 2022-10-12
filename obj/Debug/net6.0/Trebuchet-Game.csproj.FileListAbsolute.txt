@@ -40,3 +40,24 @@ C:\Users\benny\Applied Programming\Trebuchet-Game\bin\Debug\net6.0\runtimes\win-
 C:\Users\benny\Applied Programming\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.csproj.CopyComplete
 C:\Users\benny\Applied Programming\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.genruntimeconfig.cache
 C:\Users\benny\Applied Programming\Trebuchet-Game\obj\Debug\net6.0\ref\Trebuchet-Game.dll
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\bin\Debug\net6.0\Trebuchet-Game.exe
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\bin\Debug\net6.0\Trebuchet-Game.deps.json
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\bin\Debug\net6.0\Trebuchet-Game.runtimeconfig.json
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\bin\Debug\net6.0\Trebuchet-Game.dll
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\bin\Debug\net6.0\Trebuchet-Game.pdb
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\bin\Debug\net6.0\Raylib-cs.dll
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\bin\Debug\net6.0\runtimes\linux-x64\native\libraylib.so
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\bin\Debug\net6.0\runtimes\osx-x64\native\libraylib.dylib
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\bin\Debug\net6.0\runtimes\win-x64\native\raylib.dll
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\bin\Debug\net6.0\runtimes\win-x86\native\raylib.dll
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.csproj.AssemblyReference.cache
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.AssemblyInfoInputs.cache
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.AssemblyInfo.cs
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.csproj.CoreCompileInputs.cache
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.csproj.CopyComplete
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.dll
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\obj\Debug\net6.0\refint\Trebuchet-Game.dll
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.pdb
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\obj\Debug\net6.0\Trebuchet-Game.genruntimeconfig.cache
+C:\Users\wildm\Documents\SEMESTER 7\Applied Programming\Team project\Trebuchet-Game\obj\Debug\net6.0\ref\Trebuchet-Game.dll

@@ -8,7 +8,7 @@ namespace Trebuchet.Game.Directing
     /// The responsibility of a Director is to control the sequence of play.
     public class Director
     {
-        private VideoService videoService = null;
+        private VideoService videoService;
 
         /// Constructs a new instance of Director using the given KeyboardService and VideoService.
         public Director(VideoService videoService)

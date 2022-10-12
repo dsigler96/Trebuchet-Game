@@ -15,6 +15,7 @@ namespace Trebuchet.Game.Scripting
         public void Execute(Cast cast, Script script)
         {
             videoService.DrawActors(cast.GetAllActors());
+            videoService.ClearBuffer();
         }
     }
 }

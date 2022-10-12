@@ -8,10 +8,14 @@
           "System.Numerics.Vectors": "4.5.0"
         },
         "compile": {
-          "lib/net6.0/Raylib-cs.dll": {}
+          "lib/net6.0/Raylib-cs.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Raylib-cs.dll": {}
+          "lib/net6.0/Raylib-cs.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/linux-x64/native/libraylib.so": {
@@ -119,19 +123,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\benny\\.nuget\\packages\\": {}
+    "C:\\Users\\wildm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benny\\Applied Programming\\Trebuchet-Game\\Trebuchet-Game.csproj",
+      "projectUniqueName": "C:\\Users\\wildm\\Documents\\SEMESTER 7\\Applied Programming\\Team project\\Trebuchet-Game\\Trebuchet-Game.csproj",
       "projectName": "Trebuchet-Game",
-      "projectPath": "C:\\Users\\benny\\Applied Programming\\Trebuchet-Game\\Trebuchet-Game.csproj",
-      "packagesPath": "C:\\Users\\benny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\benny\\Applied Programming\\Trebuchet-Game\\obj\\",
+      "projectPath": "C:\\Users\\wildm\\Documents\\SEMESTER 7\\Applied Programming\\Team project\\Trebuchet-Game\\Trebuchet-Game.csproj",
+      "packagesPath": "C:\\Users\\wildm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wildm\\Documents\\SEMESTER 7\\Applied Programming\\Team project\\Trebuchet-Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\benny\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\wildm\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -166,7 +170,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -175,7 +180,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
